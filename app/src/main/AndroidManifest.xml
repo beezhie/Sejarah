@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sejarah.apps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.EvaluasiActivity"></activity>
+        <activity android:name=".ui.LoginActivity" />
+        <activity android:name=".ui.JawabanContohSoalActivity" />
+        <activity android:name=".ui.ContentMateriActivity" />
+        <activity android:name=".ui.ContentPendahuluanActivity" />
+        <activity android:name=".ui.ProfilActivity" />
+        <activity android:name=".ui.LatihanSoalActivity" />
+        <activity android:name=".ui.ContohSoalActivity" />
+        <activity android:name=".ui.VideoActivity" />
+        <activity android:name=".ui.MateriActivity" />
+        <activity android:name=".ui.PendahuluanActivity" />
+        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

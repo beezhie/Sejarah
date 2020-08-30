@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sejarah Mempertahankan NKRI</string>
+    <string name="todo">TODO</string>
+    <string name="sejarah_sma">Sejarah SMA</string>
+    <string name="kelas_xi">Kelas XI</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="prodi">Prodi</string>
+    <string name="serangan_umum">Serangan Umum</string>
+    <string name="_1_maret_1949">1 Maret 1949</string>
+    <string name="sedang_memproses">Sedang memproses...</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="jawaban_soal_latihan">Jawaban Soal Latihan</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="belum_punya_akun">Belum punya akun ?</string>
+    <string name="daftar_disini">Daftar disini</string>
+    <string name="nama">Nama</string>
+    <string name="mulai">Mulai</string>
+    <string name="stop">Stop</string>
+    <string name="kirim_jawaban">Kirim Jawaban</string>
+    <string name="skor_kamu">Skor Kamu</string>
+    <string name="tutup">Tutup</string>
+    <string name="nilai">Nilai</string>
+</resources>
