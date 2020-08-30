@@ -40,6 +40,15 @@ class MateriActivity : AppCompatActivity() {
         val listMenu: ArrayList<Menu> = ArrayList()
         listMenu.add(
             Menu(
+                "Linggarjati", R.drawable.materi, 0, 0, Intent(
+                    this@MateriActivity,
+                    ContentMateriActivity::class.java
+                ).putExtra(ContentMateriActivity.EXTRA_DATA, "Linggarjati.pdf")
+                    .putExtra(ContentMateriActivity.EXTRA_TITLE, "Linggarjati")
+            )
+        )
+        listMenu.add(
+            Menu(
                 "Serangan Umum 1 Maret", R.drawable.materi, 0, 0, Intent(
                     this@MateriActivity,
                     ContentMateriActivity::class.java
@@ -63,15 +72,6 @@ class MateriActivity : AppCompatActivity() {
                     ContentMateriActivity::class.java
                 ).putExtra(ContentMateriActivity.EXTRA_DATA, "Agresi Militer II.pdf")
                     .putExtra(ContentMateriActivity.EXTRA_TITLE, "Agresi Militer II")
-            )
-        )
-        listMenu.add(
-            Menu(
-                "Linggarjati", R.drawable.materi, 0, 0, Intent(
-                    this@MateriActivity,
-                    ContentMateriActivity::class.java
-                ).putExtra(ContentMateriActivity.EXTRA_DATA, "Linggarjati.pdf")
-                    .putExtra(ContentMateriActivity.EXTRA_TITLE, "Linggarjati")
             )
         )
         adapterMenu.replaceAll(listMenu)
