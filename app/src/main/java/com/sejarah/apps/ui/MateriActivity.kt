@@ -45,6 +45,7 @@ class MateriActivity : AppCompatActivity() {
                     ContentMateriActivity::class.java
                 ).putExtra(ContentMateriActivity.EXTRA_DATA, "Linggarjati.pdf")
                     .putExtra(ContentMateriActivity.EXTRA_TITLE, "Linggarjati")
+                    .putExtra(ContentMateriActivity.EXTRA_VIDEO,R.raw.linggarjati)
             )
         )
         listMenu.add(
@@ -54,6 +55,7 @@ class MateriActivity : AppCompatActivity() {
                     ContentMateriActivity::class.java
                 ).putExtra(ContentMateriActivity.EXTRA_DATA, "Serangan Umum 1 Maret.pdf")
                     .putExtra(ContentMateriActivity.EXTRA_TITLE, "Serangan Umum 1 Maret")
+                    .putExtra(ContentMateriActivity.EXTRA_VIDEO,R.raw.serangumum)
             )
         )
         listMenu.add(
@@ -63,6 +65,7 @@ class MateriActivity : AppCompatActivity() {
                     ContentMateriActivity::class.java
                 ).putExtra(ContentMateriActivity.EXTRA_DATA, "Agresi Militer I.pdf")
                     .putExtra(ContentMateriActivity.EXTRA_TITLE, "Agresi Militer I")
+                    .putExtra(ContentMateriActivity.EXTRA_VIDEO,R.raw.agresi_satu)
             )
         )
         listMenu.add(
@@ -72,6 +75,7 @@ class MateriActivity : AppCompatActivity() {
                     ContentMateriActivity::class.java
                 ).putExtra(ContentMateriActivity.EXTRA_DATA, "Agresi Militer II.pdf")
                     .putExtra(ContentMateriActivity.EXTRA_TITLE, "Agresi Militer II")
+                    .putExtra(ContentMateriActivity.EXTRA_VIDEO,R.raw.agresi_dua)
             )
         )
         adapterMenu.replaceAll(listMenu)

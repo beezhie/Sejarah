@@ -103,7 +103,7 @@ class LatihanSoalActivity : AppCompatActivity() {
         dataSoal.add(
             Soal(
                 1,
-                "Pada tanggal 21 Juli 1947 Belanda melancarkan agresi militer I ke daerah kekuasaan RI. Tindakan Belanda itu melanggar suatu kesepakatan dengan Indonesia, yaitu...",
+                "Pada tanggal 21 Juli 1947 Belanda melancarkan agresi militer I ke daerah kekuasaan RI. Tindakan Belanda itu melanggar suatu kesepakatan dengan Indonesia, yaitu . . . .",
                 "Linggarjati",
                 listOf(
                     "Linggarjati",
@@ -117,7 +117,7 @@ class LatihanSoalActivity : AppCompatActivity() {
         dataSoal.add(
             Soal(
                 2,
-                "Perundingan Linggarjati dilaksanakan pada tanggal...",
+                "Perundingan Linggarjati dilaksanakan pada tanggal . . . .",
                 "10 November 1947",
                 listOf(
                     "10 November 1947",
@@ -131,203 +131,133 @@ class LatihanSoalActivity : AppCompatActivity() {
         dataSoal.add(
             Soal(
                 3,
-                "Perundingan yang dilaksanakan di atas kapal perang milik Amerika Serikat yang mendarat di pelabuhan Tanjung Periok Jakarta adalah...",
-                "perundingan Renville",
+                "Dalam perjanjian Linggarjati, pihak Indonesia merasa sangat dirugikan karena . . . .",
+                "Wilayah RI hanya mencakup Jawa, Madura dan Sumatera",
                 listOf(
-                    "perundingan Renville",
-                    "perundingan Roem-Royen",
-                    "perundingan Linggajati",
-                    "perundingan KTN",
-                    "perundingan KMB"
+                    "Wilayah RI hanya mencakup Jawa, Madura dan Sumatera",
+                    "Para tokoh nasional ditawan oleh Belanda",
+                    "Belanda mengambil alih seluruh wilayah",
+                    "Tentara RI harus ditarik dari daerah pendudukan",
+                    "Terjadinya gangguan keamanan di wilayah Indonesia"
                 ).shuffled()
             )
         )
         dataSoal.add(
             Soal(
                 4,
-                "Dalam perjanjian Linggarjati, pihak Indonesia merasa sangat dirugikan karena...",
-                "Wilayah RI hanya mencakup Jawa, Madura dan Sumatera",
+                "Perundingan yang dilaksanakan di atas kapal perang milik Amerika Serikat yang mendarat di pelabuhan Tanjung Priok Jakarta adalah . . . .",
+                "Perundingan Renville",
                 listOf(
-                    "Wilayah RI hanya mencakup Jawa, Madura dan Sumatera",
-                    "Para tokoh nasional ditawan oleh Belanda",
-                    "Terjadinya gangguan keamanan di wilayah Indonesia",
-                    "Belanda mengambil alih seluruh wilayah",
-                    "Tentara RI harus ditarik dari daerah pendudukan"
+                    "Perundingan Renville",
+                    "Perundingan Roem-Royen",
+                    "Perundingan Linggarjati",
+                    "Perundingan KTN",
+                    "Perundingan KMB"
                 ).shuffled()
             )
         )
         dataSoal.add(
             Soal(
                 5,
-                "KMB yang berlangsung di Deen Haag 1949 menghasilkan beberapa keputusan sebagai berikut, kecuali...",
-                "Belanda harus membayar utangnya kepada RIS",
+                "Belanda dengan jelas melaksanakan politik adu domba, hal ini dibuktikan dari wakilnya dalam perjanjian Renville yaitu . . . .",
+                "Mohammad Roem",
                 listOf(
-                    "Belanda harus membayar utangnya kepada RIS",
-                    "RIS diakui sebagai negara merdeka dan berdaulat",
-                    "Irian Barat akan diselesaikan setahun kemudian",
-                    "Akan dibuat UNI Indonesia Belanda",
-                    "RIS akan mengembalikan hak milik Belanda"
+                    "Mohammad Roem",
+                    "Sutan Syahrir",
+                    "Amir Syarifuddin",
+                    "Sultan Hamid II",
+                    "Abdul Kadir Wijoyoatmojo"
                 ).shuffled()
             )
         )
         dataSoal.add(
             Soal(
                 6,
-                "Latar belakang agresi militer Belanda II antara lain...",
-                "Pertentangan politik internal RI akibat Persetujuan Renville",
+                "Keterlibatan PBB untuk pertama kali dalam ikut menyelesaikan sengketa Indonesia – Belanda dengan cara membentuk . . . .",
+                "KTN",
                 listOf(
-                    "Pertentangan politik internal RI akibat Persetujuan Renville",
-                    "Rekonstruksi dan rasionalisasi angkatan perang",
-                    "Pemberontakan PKI Madiun",
-                    "Serangan Umum 1 Maret 1949",
-                    "Pemberontakan Permesta"
+                    "KTN",
+                    "Bantuan beras",
+                    "Pasukan perdamaian",
+                    "UNCI",
+                    "UNTEA"
                 ).shuffled()
             )
         )
         dataSoal.add(
             Soal(
                 7,
-                "Alasan utama dari pembentukan PDRI yang berkedudukan di Bukittinggi Sumbar adalah...",
-                "Yogyakarta dinilai tidak lagi aman menjadi pusat pemerintahan Indonesia",
+                "Di Dalam perundingan Renville, atas usulan Amerika Serikat terdapat 3 Negara yang siap menjadi moderator perselisihan Belanda-Indonesia, yaitu . . . .",
+                "Australia, Belgia, AS",
                 listOf(
-                    "Yogyakarta dinilai tidak lagi aman menjadi pusat pemerintahan Indonesia",
-                    "menyelamatkan kabinet yang memerintah saat itu",
-                    "sebagai pemerintahan bayangan karena para pemimpin Indonesia diasingkan Belanda",
-                    "mengelabui Belanda agar tidak menyerang pusat pemerintahan di Yogyakarta",
-                    "mengisyaratkan bahwa basis pertahanan militer adalah Bukittinggi"
+                    "Australia, Belgia, AS",
+                    "Belanda, Indonesia, AS",
+                    "AS, Rusia, Inggris",
+                    "AS, Indonesia, Israel",
+                    "Belanda, Luxemburg, Vatikan"
                 ).shuffled()
             )
         )
         dataSoal.add(
             Soal(
                 8,
-                "Usaha yang dilakukan untuk mempertahankan diri dari pendudukan Belanda sebagai akibat diserang dan didudukinya Jogjakarta sebagai ibukota RI dalam agresi Belanda II adalah...",
-                "mendirikan Pemerintahan Darurat RI di Bukit Tinggi",
+                "Latar belakang agresi militer Belanda II antara lain . . . .",
+                "Pertentangan politik internal RI akibat Persetujuan Renville",
                 listOf(
-                    "mendirikan Pemerintahan Darurat RI di Bukit Tinggi",
-                    "memperkuat pertahanan untuk kembali merebut Jogjakarta",
-                    "melakukan serangan umum 1 Maret 1949 pimpinan Suharto",
-                    "mengungsikan para pemimpin RI ke tempat yang lebih aman",
-                    "melaporkan tindakan Belanda kepada PBB"
+                    "Pertentangan politik internal RI akibat Persetujuan Renville",
+                    "Rekonstruksi dan rasionalisasi angkatan perang",
+                    "Pemberontakan PKI Madiun",
+                    "Serangan Umum 1 Maret 1949",
+                    "Pemberontakan permesta"
                 ).shuffled()
             )
         )
         dataSoal.add(
             Soal(
                 9,
-                "Untuk mempertahankan diri dari serangan Belanda pada agresi Belanda II adalah...",
-                "melakukan Serangan umum pada 1 Maret 1949",
+                "Dalam Serangan Umum 1 Maret Tentara Republik Indonesia berhasil menduduki Kota Yogyakarta selama . . . .",
+                "6 jam",
                 listOf(
-                    "melakukan Serangan umum pada 1 Maret 1949",
-                    "membentuk PDRI di Bukit Tinggi",
-                    "membentuk pemerintahan baru di Jakarta",
-                    "membiarkan pemimpin RI ditangkap Belanda",
-                    "melaporkan kepada PBB"
+                    "6 jam",
+                    "5 jam",
+                    "7 jam",
+                    "8 jama",
+                    "9 jam"
                 ).shuffled()
             )
         )
         dataSoal.add(
             Soal(
                 10,
-                "Belanda dengan jelas melaksanakan politik adu domba, hal ini dibuktikan dari wakilnya dalam perjanjian Renville yaitu …",
-                "Muhammad Roem",
+                "Serangan Umum 1 maret 1949 dipimpin oleh . . . .",
+                "Letkol Soeharto",
                 listOf(
-                    "Muhammad Roem",
-                    "Sutan Syarir ",
-                    "Amir Syarifuddin",
-                    "Sultan Hamid II",
-                    "Abdul Kadir Wijoyoatmojo"
+                    "Letkol Soeharto",
+                    "Jenderal Soedirman",
+                    "A. H. Nasution",
+                    "SAhmad Yani",
+                    "Bung Tomo"
                 )
             )
         )
         dataSoal.add(
             Soal(
                 11,
-                "Keterlibatan PBB untuk pertama kali dalam ikut menyelesaikan sengketa Indonesia – Belanda dengan cara membentuk...",
-                "KTN",
+                "Dampak dari serangan umum 1 maret 1949 yang menunjang perjuangan bangsa Indonesia dalam bidang diplomasi adalah . . . .",
+                "Dibawakannya masalah Indonesia dalam forum PBB",
                 listOf(
-                    "KTN",
-                    "UNTEA",
-                    "UNCI",
-                    "Pasukan perdamaian",
-                    "Bantuan beras"
+                    "Dibawakannya masalah Indonesia dalam forum PBB",
+                    "Dapat dikuasainya kota Jogjakarta selama 6 jam",
+                    "Menunjukkan bahwa TNI masih ada dan terorganisir dengan baik.",
+                    "Indonesia mendapatkan pengakuan internasional \tsebagai Negara yang berdaulat.",
+                    "Terjadinya gejolak di dalam wilayah RI"
                 ).shuffled()
             )
         )
         dataSoal.add(
             Soal(
                 12,
-                "Berikut ini merupakan Negara Negara angggota, Komisi Tiga Negara (KTN) adalah...",
-                "Australia, belgia, amerika serikat",
-                listOf(
-                    "Australia, belgia, amerika serikat",
-                    "Australia, perancis, belgia",
-                    "Australia, swedia, Amerika serikat",
-                    "perancis, amerika, Kanada",
-                    "Denmark, Inggris, Swedia"
-                ).shuffled()
-            )
-        )
-        dataSoal.add(
-            Soal(
-                13,
-                "Terbentuknya kembali Negara Kesatuan RI ( NKRI ) 17 Agustus 1950 dalam hubungan dengan UUD 45, berarti...",
-                "kembali pada bentuk negara yang sesuai dengan cita-cita proklamasi",
-                listOf(
-                    "kembali pada bentuk negara yang sesuai dengan cita-cita proklamasi",
-                    "berlakunya kembali sistem kabinet ministriil dengan Demokrasi Parkementer",
-                    "kembalinya seluruh pejuang kemerdekaan kepangkuan RI",
-                    "gagalnya politik devide et impera yang dijalankan Belanda",
-                    "kembali diberlakukannya UUD 45 secara murni dan konsekwen"
-                ).shuffled()
-            )
-        )
-        dataSoal.add(
-            Soal(
-                14,
-                "Dampak dari serangan umum 1 maret 1949 yang menunjang perjuangan bangsa Indonesia dalam bidang diplomasi adalah...",
-                "Dibawanyanya masalah Indonesia kedalam forum PBB",
-                listOf(
-                    "Dibawanyanya masalah Indonesia kedalam forum PBB",
-                    "Menunjukkan bahwa TNI masih ada dan terorganisir dengan baik.",
-                    "Dapat dikuasainya kota Jogjakarta selama 6 jam",
-                    "Indonesia mendapatkan pengakuan internasional sebagai Negara yang berdaulat.",
-                    "Terjadinya gejolak didalam wilayah RI"
-                ).shuffled()
-            )
-        )
-        dataSoal.add(
-            Soal(
-                15,
-                "Syarifudin Prawiranegara mendirikan Pemerintahan Daruran Republik Indonesia karena...",
-                "Melaksanakan mandat dari Soekarno-M. Hatta",
-                listOf(
-                    "Melaksanakan mandat dari Soekarno-M. Hatta",
-                    "Kecewa terhadap pemerintahan pusat",
-                    "Tidak berfungsinya pemerintahan di Jogjakarta",
-                    "Kurang setuju dengan hasil perundingan Renville",
-                    "Belanda ingin menguasai Indonesia kembali."
-                ).shuffled()
-            )
-        )
-        dataSoal.add(
-            Soal(
-                16,
-                "Serangan Umum 1 maret 1949 dipimpin oleh...",
-                "Letkol Soeharto",
-                listOf(
-                    "Letkol Soeharto",
-                    "Jenderal Soedirman",
-                    "A. H. Nasution",
-                    "Ahmad yani",
-                    "Bung Tomo"
-                ).shuffled()
-            )
-        )
-        dataSoal.add(
-            Soal(
-                17,
-                "12. Serangan Umum 1 Maret 1949 dilaksanakan  pasukan TNI dari Brigade 10/Wehrkreise III yang dipimpin oleh Letnan Kolonel Soeharto, setelah mendapat persetujuan dari...",
+                "Serangan Umum 1 Maret 1949 dilaksanakan pasukan TNI dari Brigade 10/Wehrkreise III yang dipimpin oleh Letnan Kolonel Soeharto, setelah mendapat persetujuan dari . . . .",
                 "Sri Sultan Hamengku Buwono IX",
                 listOf(
                     "Sri Sultan Hamengku Buwono IX",
@@ -340,7 +270,63 @@ class LatihanSoalActivity : AppCompatActivity() {
         )
         dataSoal.add(
             Soal(
-                18,
+                13,
+                "Usaha yang dilakukan untuk mempertahankan diri dari pendudukan Belanda sebagai akibat diserang dan didudukinya Jogjakarta sebagai ibukota RI dalam agresi Belanda II adalah . . . .",
+                "Mendirikan Pemerintahan Darurat RI di Bukit Tinggi",
+                listOf(
+                    "Mendirikan Pemerintahan Darurat RI di Bukit Tinggi",
+                    "Memperkuat pertahanan untuk kembali merebut Jogjakarta",
+                    "Melakukan serangan umum 1 Maret 1949 pimpinan Suharto",
+                    "Mengungsikan para pemimpin RI ke tempat yang lebih aman",
+                    "Melaporkan tindakan Belanda kepada PBB"
+                ).shuffled()
+            )
+        )
+        dataSoal.add(
+            Soal(
+                14,
+                "Syarifudin Prawiranegara mendirikan Pemerintahan Darurat Republik Indonesia karena . . . .",
+                "Melaksanakan mandat dari Soekarno-M. Hatta",
+                listOf(
+                    "Melaksanakan mandat dari Soekarno-M. Hatta",
+                    "Kecewa terhadap pemerintahan pusat",
+                    "Tidak berfungsinya pemerintahan di Jogjakarta",
+                    "Kurang setuju dengan hasil perundingan Renville",
+                    "Belanda ingin menguasai Indonesia kembali"
+                ).shuffled()
+            )
+        )
+        dataSoal.add(
+            Soal(
+                15,
+                "Alasan utama dari pembentukan PDRI yang berkedudukan di Bukittinggi Sumbar adalah . . . .",
+                "Yogyakarta dinilai tidak lagi aman menjadi pusat pemerintahan Indonesia",
+                listOf(
+                    "Yogyakarta dinilai tidak lagi aman menjadi pusat pemerintahan Indonesia",
+                    "Menyelamatkan kabinet yang memerintah saat itu",
+                    "Sebagai pemerintahan bayangan karena para pemimpin Indonesia diasingkan Belanda",
+                    "Mengelabui Belanda agar tidak menyerang pusat pemerintahan di Yogyakarta",
+                    "Mengisyaratkan bahwa basis pertahanan militer adalah Bukittinggi"
+                ).shuffled()
+            )
+        )
+        dataSoal.add(
+            Soal(
+                16,
+                "KMB yang berlangsung di Den Haag 1949 menghasilkan beberapa keputusan sebagai berikut, kecuali . . . .",
+                "Belanda harus membayar hutangnya kepada RIS",
+                listOf(
+                    "Belanda harus membayar hutangnya kepada RIS",
+                    "RIS diakui sebagai negara merdeka dan berdaulat",
+                    "Irian Barat akan diselesaikan setahun kemudian",
+                    "Akan dibuat UNI Indonesia Belanda",
+                    "RIS akan mengembalikan hak milik Belanda"
+                ).shuffled()
+            )
+        )
+        dataSoal.add(
+            Soal(
+                17,
                 "Perhatikan data-data berikut !\n" +
                         "\tA. Negera Indonesia Timur\n" +
                         "\tB. Kalimantan Barat\n" +
@@ -348,35 +334,35 @@ class LatihanSoalActivity : AppCompatActivity() {
                         "\tD. Negara Jawa Timur\n" +
                         "\tE. Kalimantan Timur\n" +
                         "\tF. Kalimantan Tenggara\n" +
-                        "Dari data tersebut yang termasuk Satuan-satuan kenegaraan pada RIS adalah...",
-                "B) E) F)",
+                        "Dari data tersebut yang termasuk Satuan-satuan kenegaraan pada RIS adalah . . . .",
+                "C) E) F)",
                 listOf(
-                    "B) E) F)",
+                    "C) E) F)",
                     "A) B) C)",
                     "B) D) F)",
                     "B) C) E)",
-                    "C) A) E)"
+                    "F) A) E)"
+                ).shuffled()
+            )
+        )
+        dataSoal.add(
+            Soal(
+                18,
+                "Berikut ini adalah faktor-faktor yang melatarbelakangi pembubaran RIS, kecuali . . . .",
+                "Menyatukan kesatuan dan persatuan",
+                listOf(
+                    "Menyatukan kesatuan dan persatuan",
+                    "Tidak sesuainya negara Republik Indonesia Serikat dalam Konstitusi Republik Indonesia Serikat dengan tujuan awal dan cita-cita proklamasi negara Republik Indonesia pada tahun 1945",
+                    "Sebagian besar rakyat Indonesia tidak puas dengan hasil Konferensi Meja Bundar (KMB) yang melahirkan negara Republik Indonesia Serikat (RIS) sehingga menyebabkan banyaknya demonstrasi menuntut bergabung kedalam bagian dari Republik Indonesia",
+                    "Bentuk negara federal merupakan bentukan Belanda dibawah pimpinan Van Mook sehingga orang yang menyetujui bentuk negara ini berarti setuju dengan kembalinya kekuasaan Belanda di Indonesia",
+                    "Republik Indonesia Serikat (RIS) adalah sistem pemerintahan dari kolonial Belanda yang tidak menginginkan kekuasaan dan pengaruhnya hilang begitu saja dari Indonesia setelah berkuasa selama 350 tahun"
                 ).shuffled()
             )
         )
         dataSoal.add(
             Soal(
                 19,
-                "Berikut ini adalah faktor-faktor yang melatarbelakangi pembububaran RIS, kecuali...",
-                "Menyatukan kesatuan dan persatuan",
-                listOf(
-                    "Menyatukan kesatuan dan persatuan",
-                    "Tidak sesuainya negara Republik Indonesia Serikat dalam Konstitusi Republik Indonesia Serikat dengan tujuan awal dan cita-cita proklamsi negara Republik Indonesia pada tahun 1945.",
-                    "Republik Indonesia Serikat (RIS) adalah sistem pemerintahan dari kolonial Belanda yang tidak menginginkan kekuasaan dan pengaruhnya hilang begitu saja dari Indonesia setelah berkuasa selama 350 tahun",
-                    "Bentuk negara federal merupakan bentukan Belanda dibawah pimpinan Van Mook sehingga orang yang menyetujui bentuk negaara ini berarti setuju dengan kembalinya kekuasaan Belanda di Indonesia.",
-                    "Sebagian besar rakyat Indonesia tidak puas dengan hasil Koneferensi Meja Bundar (KMB) yang melahirkan negara Republik Indonesia Serikat (RIS) sehingga menyebabkan banyaknya demonstrasi menuntut bergabung kedalam bagian dari Republik Indonesia"
-                ).shuffled()
-            )
-        )
-        dataSoal.add(
-            Soal(
-                20,
-                "Sejak ktanggal berapa UUDS 1945 mulai berlaku dan menandai Pembubaran Republik Indonesia Serikat (RIS) secara resmi dan kembali ke sistem Demokrasi liberal Negara Kesatuan Republik Indonesia...",
+                "Sejak tanggal berapa UUDS 1945 mulai berlaku dan menandai Pembubaran Republik Indonesia Serikat (RIS) secara resmi dan kembali ke sistem Demokrasi liberal Negara Kesatuan Republik Indonesia . . . .",
                 "17 Agustus 1950",
                 listOf(
                     "17 Agustus 1950",
@@ -384,6 +370,20 @@ class LatihanSoalActivity : AppCompatActivity() {
                     "7 Agustus 1950",
                     "1 Agustus 1950",
                     "17 Agustus 1905"
+                ).shuffled()
+            )
+        )
+        dataSoal.add(
+            Soal(
+                20,
+                "Terbentuknya kembali Negara Kesatuan RI (NKRI) 17 Agustus 1950 dalam hubungan dengan UUD 45, berarti . . . .",
+                "Kembali pada bentuk negara yang sesuai dengan cita-cita proklamasi",
+                listOf(
+                    "Kembali pada bentuk negara yang sesuai dengan cita-cita proklamasi",
+                    "Berlakunya kembali sistem kabinet ministriil dengan Demokrasi Parlementer",
+                    "Kembalinya seluruh pejuang kemerdekaan ke pangkuan RI",
+                    "Gagalnya politik devide et impera yang dijalankan Belanda",
+                    "Kembali diberlakukannya UUD 45 secara murni dan konsekuen"
                 ).shuffled()
             )
         )

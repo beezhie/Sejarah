@@ -134,7 +134,7 @@ fun PDFView.load(activity: Activity, uri: String) {
         .onRender { hideDialog() }
         .onLoad { activity.showDialog() }
         .onError { e -> println("ERROR PDF :  ${e.printStackTrace()}") }
-        .pageFitPolicy(FitPolicy.BOTH)
+        .pageFitPolicy(FitPolicy.WIDTH)
         .fitEachPage(true)
         .load()
 }
