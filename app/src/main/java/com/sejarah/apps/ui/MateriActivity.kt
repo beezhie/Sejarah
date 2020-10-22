@@ -50,16 +50,6 @@ class MateriActivity : AppCompatActivity() {
         )
         listMenu.add(
             Menu(
-                "Serangan Umum 1 Maret", R.drawable.materi, 0, 0, Intent(
-                    this@MateriActivity,
-                    ContentMateriActivity::class.java
-                ).putExtra(ContentMateriActivity.EXTRA_DATA, "Serangan Umum 1 Maret.pdf")
-                    .putExtra(ContentMateriActivity.EXTRA_TITLE, "Serangan Umum 1 Maret")
-                    .putExtra(ContentMateriActivity.EXTRA_VIDEO,R.raw.serangumum)
-            )
-        )
-        listMenu.add(
-            Menu(
                 "Agresi Militer I", R.drawable.materi, 0, 0, Intent(
                     this@MateriActivity,
                     ContentMateriActivity::class.java
@@ -76,6 +66,16 @@ class MateriActivity : AppCompatActivity() {
                 ).putExtra(ContentMateriActivity.EXTRA_DATA, "Agresi Militer II.pdf")
                     .putExtra(ContentMateriActivity.EXTRA_TITLE, "Agresi Militer II")
                     .putExtra(ContentMateriActivity.EXTRA_VIDEO,R.raw.agresi_dua)
+            )
+        )
+        listMenu.add(
+            Menu(
+                "Serangan Umum 1 Maret", R.drawable.materi, 0, 0, Intent(
+                    this@MateriActivity,
+                    ContentMateriActivity::class.java
+                ).putExtra(ContentMateriActivity.EXTRA_DATA, "Serangan Umum 1 Maret.pdf")
+                    .putExtra(ContentMateriActivity.EXTRA_TITLE, "Serangan Umum 1 Maret")
+                    .putExtra(ContentMateriActivity.EXTRA_VIDEO,R.raw.serangumum)
             )
         )
         adapterMenu.replaceAll(listMenu)
